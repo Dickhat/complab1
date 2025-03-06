@@ -211,4 +211,8 @@ fn main() {
             }
         }
     }
+
+        println!(" Program incorrect. Not enough end symbol ';'");
+        state = States::E("Error".to_string());
+        exit(1);
 }
